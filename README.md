@@ -1,6 +1,6 @@
 # Delivery Scheduler
 
-This is a simple truck delivery scheduling system that is based on MERN stack. Database used in this app is from free tier MongoDB Atlas. Make sure to create an account to use Atlas with this app
+This is a simple truck delivery scheduling system that is based on MERN stack. Database used in this app is from free tier MongoDB Atlas. Make sure to create an account to use Atlas with this app. Go to https://mern-delivery-scheduler.herokuapp.com to view the deployed demo of this app
 
 ## Dependencies
 
