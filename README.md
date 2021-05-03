@@ -40,10 +40,10 @@ TODO: insert flowchart diagram
 
 For the purpose of demo-ing CI/CD, another private production repo is being used which contains the same code as this repo but with confidential database URI
 
-- CI has been setup via CircleCI which will build the app upon commit and send notifications to developer through email
+- CI has been setup via CircleCI which will build the app upon commit and send notifications to developer through email. CI config is available at .circleci/config.yml
 
   TODO: insert CI pipeline and email snapshot
 
-- CD has been setup via Heroku which will deploy app upon commit after CI has passed at https://mern-delivery-scheduler.herokuapp.com
+- CD has been setup via Heroku which will deploy app upon commit at https://mern-delivery-scheduler.herokuapp.com after CI has passed
 
   TODO: insert CD snapshot
