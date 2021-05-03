@@ -6,7 +6,10 @@ This is a simple truck delivery scheduling system that is based on MERN stack. D
 
 - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
   - Setup network and database access
+  
+    ![alt text](https://github.com/abdmo/mern-delivery-scheduler-dev/blob/main/doc/atlas_settings.png)
   - Save connection string \<CONNECTION_URI\>
+    ![alt text](https://github.com/abdmo/mern-delivery-scheduler-dev/blob/main/doc/connection_string.png)
 
 ## Running the app
 
@@ -34,7 +37,7 @@ This is a simple truck delivery scheduling system that is based on MERN stack. D
 
 ## Workflow
 
-TODO: insert flowchart diagram
+![alt text](https://github.com/abdmo/mern-delivery-scheduler-dev/blob/main/doc/flowchart.png)
 
 ### CI/CD
 
@@ -42,8 +45,8 @@ For the purpose of demo-ing CI/CD, another private production repo is being used
 
 - CI has been setup via CircleCI which will build the app upon commit and send notifications to developer through email. CI config is available at .circleci/config.yml
 
-  TODO: insert CI pipeline and email snapshot
+  ![alt text](https://github.com/abdmo/mern-delivery-scheduler-dev/blob/main/doc/ci.png)
 
 - CD has been setup via Heroku which will deploy app upon commit at https://mern-delivery-scheduler.herokuapp.com after CI has passed
 
-  TODO: insert CD snapshot
+  ![alt text](https://github.com/abdmo/mern-delivery-scheduler-dev/blob/main/doc/cd.png)
